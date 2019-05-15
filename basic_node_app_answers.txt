@@ -1,0 +1,8 @@
+1. A Node module is very similar to a React component. It acts as a library for holding sets of functions to include in your application. Modules are encapsulated and reusable and each module should be limited to executing one specific task for the application.
+
+2. Module.exports is an empty object by default and it is what is returned from `require()` function. Module.exports can be reassigned to anything and is used if you want your module to have a specific object type. Exports is just a reference to module.exports and cannot be reassigned.
+
+3. It is recommended to use exports in Node because it is a shortened version but still points to the module.exports object. It is better and safer to use exports because it only references the module.exports object but does not permanently change anything outside of the module.
+
+
+
