@@ -1,3 +1,5 @@
+const fs = require('fs');
+
 exports.valedictionEnglish = function () {
     fs.appendFile('basic_node_answers.txt', 'Goodbye', (err) => {
         if (err) throw err;
